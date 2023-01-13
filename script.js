@@ -109,18 +109,24 @@ function abc(){
     console.log(obj)
 }
 
-var arr = [
-    1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0,
-    0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1,
-    0, 0, 0, 1, 0, 1,
-  ];
 
-  for(var i=0; i<=a.length;i++){
- console.log(i.length)
+  // Largest Number
+var arr = [
+    20, 0, 30, 0, 90, 91, 82, 0, 0, 0, 98, 0, 100, 97, 200, 300, 0, 0, 0, 400, 0, 500];
+console.log(arr)
+max = -Infinity;
+last = arr.length - 1; // last value position
+  for(var i=0; i<=last;i++){
+    // console.log(arr[i])
+    if(arr[i]>max){
+      max = arr[i]
+    
+    }
   }
-  var arr={
-    //show biggest number
-  }
+  console.log(max)
+//   var arr={
+//     //show biggest number
+//   }
 
 
   //parhke ana hai.
